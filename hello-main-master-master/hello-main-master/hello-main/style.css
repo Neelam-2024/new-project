@@ -1,0 +1,178 @@
+.container2 {
+    width: 100%;
+    height: 40vh;
+    background: #ced4d7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-box2 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 50px;
+    background: url('https://www.pngfind.com/pngs/m/671-6712663_png-logo-of-contact-us-transparent-png.png');
+    background-size: cover;
+    box-shadow: 0 0 20px 2px rgba(35, 255, 1, 0.807);
+    background-position: center;
+    position: relative;
+    transition: width 0.5s;
+}
+
+.img-box2:nth-child(2){
+    background: url('https://img.freepik.com/free-vector/open-email-envelope_1020-530.jpg?ga=GA1.1.788964672.1732198045&semt=ais_hybrid');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box2:nth-child(3){
+    background: url('https://cdn-icons-png.flaticon.com/512/4942/4942069.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img-box2 h3{
+    font-size: 25px;
+    color: rgb(7, 7, 7);
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.img-box2 h2{
+    font-size: 20px;
+    color: rgb(7, 7, 7);
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+
+.img-box2:hover{
+    width: 400px;
+    cursor: pointer;
+}
+
+.img-box2:hover h3{
+    opacity: 1;
+    bottom: 70px;
+}
+
+.img-box2:hover h2{
+    opacity: 1;
+    bottom: 25px;
+}
+
+
+
+
+
+/* ----------------------------------
+
+Template Name: Agrica - Organic Farm Agriculture Template
+Author: validtheme
+Description:
+Version: 1.0
+
+Main Font    : Outfit
+Main Color   : #49a760
+
+-------------------------------------
+
+[Typography]
+
+Body copy:    15px 'Outfit', sans-serif
+Header:     36px 'Outfit', sans-serif
+Input, textarea:  16px 'Outfit', sans-serif
+Sidebar heading:  22px 'Outfit', sans-serif
+
+>>> TABLE OF CONTENTS:
+=======================
+        
+    01. Template default css
+        - Animations
+        - General
+        - Section Title
+        - Video Button
+        - Typography
+        - Tables
+        - Forms
+        - Buttons
+        - Pagination
+        - Colors
+        - Accordion
+        - Tabs
+    02. Preloader
+    03 Navbar
+        - Navbar Default
+        - Navbar Center Brand
+        - Navbar Transparent
+        - Navbar Sticky
+    04. Banner
+        - Banner Agriculture
+        - Banner Farming
+        - Banner Agrculture Shop
+    05. About
+        - Version One
+        - Version Two
+	06. Services
+        - Version One
+        - Version Two
+        - Service Single
+    07. Project
+        - Project Carousel
+        - Project Grid
+        - Project Single
+	08. Testimonails
+        - Version One
+        - Version Two
+    09. Why Choose Us
+    10. Farmer
+        - Farmer Slider
+        - Farmer Single
+        - Farmer Single
+    11. Our Speciality
+    12. Product Type
+    13. Story Timeline
+    14. Faq
+    15. Brand / Partner
+    16. Feature
+        - Version One
+        - Version Two
+    17. Our Story
+    18. Product Benifits
+	19. Shop
+        - Shop Grid
+        - Shop List
+        - Shop Single With Gallery
+        - Shop Single Regular
+    20. Blog
+        - Standard
+        - Grid
+        - Left Sidebar
+        - Right Sidebar
+        - Single
+    21. Error 404
+    22. Footer
+    23. PHP Contact Form
+    24. Others
+
+*/
+
+
+
+/*
+** General Styles for HTML tags
+*/
